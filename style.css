@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@300;400&family=Press+Start+2P&family=Rubik+Bubbles&family=Rubik+Dirt&display=swap');
+
+.body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.seccion {
+  display: flex;
+  max-height: 100vh;
+  height: 100vh;
+}
+
+.primer-contenedor {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+}
+
+.iconos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 30%;
+}
+.titulo {
+  font-size: 25px;
+  margin: 0 auto;
+}
+
+.banderaImg {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.gameContenedor {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  height: 100vh;
+  border: 2px solid brown;
+}
+
+.headerGame{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border: 2px solid green;
+}
+
+.contenedor-dragAndDrop {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+.droppable-position {
+  width: 70%;
+  height: auto;
+  background-color: brown;
+  background-image: url(img/mapaArgentina.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.genericImage {
+  width: 30px;
+  height: 30pxs;
+}
+
+/* .mapa {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  z-index: 1;
+  box-sizing: border-box;
+} */
+
+
+/* .mapa {
+  width: 60%;
+  height: 100%;
+  border: 2px solid lightseagreen;
+} */
+
+.draggable-items {
+  width: 30%;
+  background-color: green;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  gap: 15px;
+  grid-template-columns: 30% 30% 30%;
+}
+.draggable-contenedor {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  width: auto;
+  height: 100vh;
+}
+
+@media screen and (max-width: 720px) {
+  .primer-contenedor {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .iconos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .gameContenedor{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: none;
+  }
+
+  .headerGame {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contenedor-dragAndDrop {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .mapa {
+    width: 80%;
+    height: 100vh;
+    background-color: lightgreen;
+  }
+
+  .draggable-items {
+    width: 20%;
+    height: 100vh;
+    background-color: lightcoral;
+  }
+
+  .genericImage {
+    width: 30px;
+    height: 30px;
+  }
+}
