@@ -74,34 +74,34 @@ let recorridos = {
         ruta: "R1C",
         elementos: [
           {
-            pathimagen: "cataratas.png",
-            nombre: "buenosAires",
-            posicion: {x:340, y:120}
-          },
-          {
-            pathimagen: "cordillera.png",
+            pathimagen: "malvinas.png",
             nombre: "malvinas",
-            posicion: {x:180, y:150}
+            posicion: {x:120, y:150}
           },
           {
-            pathimagen: "llama.png",
-            nombre: "monumentoBandera",
+            pathimagen: "tucuman.png",
+            nombre: "tucuman",
             posicion: {x:180, y:100}
-          },
-          {
-            pathimagen: "faro.png",
-            nombre: "sierras",
-            posicion: {x:190, y:545}
-          },
-          {
-            pathimagen: "campo.png",
-            nombre: "campo",
-            posicion: {x:190, y:545}
           },
           {
             pathimagen: "cataratas.png",
             nombre: "cataratas",
+            posicion: {x:340, y:120}
+          },
+          {
+            pathimagen: "puna.png",
+            nombre: "puna",
+            posicion: {x:160, y:475}
+          },
+          {
+            pathimagen: "faro.png",
+            nombre: "faro",
             posicion: {x:190, y:545}
+          },
+          {
+            pathimagen: "peninsulaValdes.png",
+            nombre: "peninsulaValdes",
+            posicion: {x:130, y:525}
           }
         ]
       }
