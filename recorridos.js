@@ -322,7 +322,7 @@ let recorridos = {
         ]
       }
       ,
-    ],
+    ]
 };
 
 export default recorridos;
