@@ -70,42 +70,42 @@ let recorridos = {
             posicion: {x:190, y:345}
           }
         ]
-      },{
-        ruta: "R1C",
-        elementos: [
-          {
-            pathimagen: "cataratas.png",
-            nombre: "buenosAires",
-            posicion: {x:340, y:120}
-          },
-          {
-            pathimagen: "cordillera.png",
-            nombre: "malvinas",
-            posicion: {x:180, y:150}
-          },
-          {
-            pathimagen: "llama.png",
-            nombre: "monumentoBandera",
-            posicion: {x:180, y:100}
-          },
-          {
-            pathimagen: "faro.png",
-            nombre: "sierras",
-            posicion: {x:190, y:545}
-          },
-          {
-            pathimagen: "campo.png",
-            nombre: "campo",
-            posicion: {x:190, y:545}
-          },
-          {
-            pathimagen: "cataratas.png",
-            nombre: "cataratas",
-            posicion: {x:190, y:545}
-          }
-        ]
-      }
-      ,
+      },
+      // {
+      //   ruta: "R1C",
+      //   elementos: [
+
+      //     {
+      //       pathimagen: "cordillera.png",
+      //       nombre: "cordillera",
+      //       posicion: {x:150, y:150}
+      //     },   
+      //     {
+      //       pathimagen: "campo.png",
+      //       nombre: "campo",
+      //       posicion: {x:180,y:200}
+      //     },{
+      //       pathimagen: "peritoMoreno.png",
+      //       nombre: "peritoMoreno",
+      //       posicion: {x:160, y:100}
+      //     },
+      //     {
+      //       pathimagen: "faro.png",
+      //       nombre: "faro",
+      //       posicion: {x:170, y:545}
+      //     },
+      //     {
+      //       pathimagen: "playa.png",
+      //       nombre: "playa",
+      //       posicion: {x:180, y:445}
+      //     },
+      //     {
+      //       pathimagen: "buenosAires.png",
+      //       nombre: "buenosAires",
+      //       posicion: {x:190, y:345}
+      //     }
+      //   ]
+      // }
     ],
     nivelDos: [
       {
@@ -113,106 +113,107 @@ let recorridos = {
         elementos: [
           {
             pathimagen: "cataratas.png",
-            nombre: "usuhaia",
+            nombre: "cataratas",
             posicion: {x:340, y:120}
           },
           {
-            pathimagen: "cordillera.png",
+            pathimagen: "peninsulaValdes.png",
             nombre: "peninsulaValdes",
             posicion: {x:180, y:150}
           },
           {
-            pathimagen: "llama.png",
+            pathimagen: "areaPetrolera.png",
             nombre: "areaPetrolera",
-            posicion: {x:180, y:100}
+            posicion: {x:120, y:180}
           },
           {
-            pathimagen: "faro.png",
+            pathimagen: "sierras.png",
             nombre: "sierras",
-            posicion: {x:190, y:545}
+            posicion: {x:160, y:245}
           }
           ,
           {
-            pathimagen: "faro.png",
-            nombre: "casaTucuman",
-            posicion: {x:190, y:545}
+            pathimagen: "tucuman.png",
+            nombre: "tucuman",
+            posicion: {x:150, y:345}
           },
           {
-            pathimagen: "faro.png",
+            pathimagen: "puna.png",
             nombre: "puna",
-            posicion: {x:190, y:545}
+            posicion: {x:140, y:545}
           }
         ],
       },
       {
         ruta: "R2B",
         elementos: [
-          {
-            pathimagen: "cataratas.png",
-            nombre: "puna",
-            posicion: {x:340, y:120}
-          },
-          {
-            pathimagen: "cordillera.png",
-            nombre: "cordillera",
-            posicion: {x:180, y:150}
-          },
-          {
-            pathimagen: "llama.png",
-            nombre: "peritoMoreno",
-            posicion: {x:180, y:100}
-          },
-          {
-            pathimagen: "faro.png",
-            nombre: "playa",
-            posicion: {x:190, y:545}
-          },
-          {
-            pathimagen: "puna.png",
-            nombre: "playa",
-            posicion: {x:190, y:545}
-          },
-          {
-            pathimagen: "faro.png",
-            nombre: "buenosAires",
-            posicion: {x:190, y:545}
-          }
-        ]
-      },{
-        ruta: "R2C",
-        elementos: [
-          {
-            pathimagen: "cataratas.png",
-            nombre: "puna",
-            posicion: {x:340, y:120}
-          },
-          {
-            pathimagen: "cordillera.png",
-            nombre: "cordillera",
-            posicion: {x:180, y:150}
-          },
-          {
-            pathimagen: "llama.png",
-            nombre: "peritoMoreno",
-            posicion: {x:180, y:100}
-          },
-          {
-            pathimagen: "faro.png",
-            nombre: "playa",
-            posicion: {x:190, y:545}
-          },
-          {
-            pathimagen: "puna.png",
-            nombre: "playa",
-            posicion: {x:190, y:545}
-          },
-          {
-            pathimagen: "faro.png",
-            nombre: "buenosAires",
-            posicion: {x:190, y:545}
-          }
-        ]
-      }
+
+              {
+                pathimagen: "cordillera.png",
+                nombre: "cordillera",
+                posicion: {x:150, y:150}
+              },   
+              {
+                pathimagen: "campo.png",
+                nombre: "campo",
+                posicion: {x:180,y:200}
+              },{
+                pathimagen: "peritoMoreno.png",
+                nombre: "peritoMoreno",
+                posicion: {x:160, y:100}
+              },
+              {
+                pathimagen: "faro.png",
+                nombre: "faro",
+                posicion: {x:170, y:545}
+              },
+              {
+                pathimagen: "playa.png",
+                nombre: "playa",
+                posicion: {x:180, y:445}
+              },
+              {
+                pathimagen: "buenosAires.png",
+                nombre: "buenosAires",
+                posicion: {x:190, y:345}
+              }
+            ]
+      },
+      // {
+      //   ruta: "R2C",
+      //   elementos: [
+      //     {
+      //       pathimagen: "cataratas.png",
+      //       nombre: "puna",
+      //       posicion: {x:340, y:120}
+      //     },
+      //     {
+      //       pathimagen: "cordillera.png",
+      //       nombre: "cordillera",
+      //       posicion: {x:180, y:150}
+      //     },
+      //     {
+      //       pathimagen: "llama.png",
+      //       nombre: "peritoMoreno",
+      //       posicion: {x:180, y:100}
+      //     },
+      //     {
+      //       pathimagen: "faro.png",
+      //       nombre: "playa",
+      //       posicion: {x:190, y:545}
+      //     },
+      //     {
+      //       pathimagen: "puna.png",
+      //       nombre: "playa",
+      //       posicion: {x:190, y:545}
+      //     },
+      //     {
+      //       pathimagen: "faro.png",
+      //       nombre: "buenosAires",
+      //       posicion: {x:190, y:545}
+      //     }
+      //   ]
+      // }
       ,
     ],
     nivelTres: [
